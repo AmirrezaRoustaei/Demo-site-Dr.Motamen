@@ -184,3 +184,4 @@ function setLanguage(lang) {
   // این خط کلیدیه: لیست مقالات رو همزمان با تغییر زبان دوباره بسازه
   renderArticles(lang);
 }
+
