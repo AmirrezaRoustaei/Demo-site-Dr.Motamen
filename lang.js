@@ -97,6 +97,9 @@ function setLanguage(lang) {
     document.getElementById("degreeTitle").innerText = "Medical Certificates & Degrees";
     document.getElementById("swissCaption").innerText = "Medical Card (Switzerland)";
     document.getElementById("frenchCaption").innerText = "Medical Degree (France)";
+    document.getElementById("frenchCaption2").innerText = "Medical Degree (France)";
+    document.getElementById("frenchCaption3").innerText = "Medical Degree (France)";
+    document.getElementById("frenchCaption4").innerText = "Medical Degree (France)";
     document.getElementById("degreeNote").innerText = "(The images are shown in reduced size. Click to enlarge in the final version.)";
 
     document.getElementById("appointmentTitle").innerText = "Online Appointment";
@@ -156,6 +159,9 @@ function setLanguage(lang) {
     document.getElementById("degreeTitle").innerText = "مدارک و سوابق تحصیلی";
     document.getElementById("swissCaption").innerText = "کارت پزشکی (سوئیس)";
     document.getElementById("frenchCaption").innerText = "مدرک پزشکی (فرانسه)";
+    document.getElementById("frenchCaption2").innerText = "مدرک پزشکی (فرانسه)";
+    document.getElementById("frenchCaption3").innerText = "مدرک پزشکی (فرانسه)";
+    document.getElementById("frenchCaption4").innerText = "مدرک پزشکی (فرانسه)";
     document.getElementById("degreeNote").innerText = "(تصاویر مدارک برای نمایش کوچک شده‌اند، روی نسخه نهایی می‌توانید با کلیک بزرگنمایی کنید)";
 
     document.getElementById("appointmentTitle").innerText = "نوبت‌دهی آنلاین";
@@ -184,4 +190,3 @@ function setLanguage(lang) {
   // این خط کلیدیه: لیست مقالات رو همزمان با تغییر زبان دوباره بسازه
   renderArticles(lang);
 }
-
