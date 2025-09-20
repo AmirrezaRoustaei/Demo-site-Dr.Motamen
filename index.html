@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">کلینیک دکتر محمدحسین مؤتمن</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="headerTitle">دکتر محمدحسین مؤتمن</h1>
+    <p>فوق تخصص ارتوپدی — ۱۳ سال تجربه</p>
+  </header>
+
+  <nav>
+    <a href="#about">درباره دکتر</a>
+    <a href="#services">خدمات</a>
+    <a href="#articles">مقالات</a>
+    <a href="#appointment">نوبت‌دهی</a>
+    <a href="#contact">تماس</a>
+  </nav>
+
+<section id="about">
+  <div class="card">
+    <h2>درباره دکتر</h2>
+    <p>
+      دکتر محمدحسین مؤتمن، فوق تخصص ارتوپدی با بیش از ۱۳ سال تجربه در درمان مشکلات استخوان، مفاصل و ستون فقرات.
+    </p>
+
+    <!-- مشخصات -->
+    <ul>
+      <li><strong>شماره جواز کلینیک:</strong>  ................</li>
+      <li><strong>شماره نظام پزشکی:</strong>  ................</li>
+    </ul>
+
+    <!-- بخش مدارک پزشکی -->
+    <div style="margin-top:20px;">
+      <h3>مدارک و سوابق تحصیلی</h3>
+      <div style="display:flex; gap:15px; flex-wrap:wrap;">
+        <!-- تصویر کارت پزشکی سوئیس -->
+        <div style="text-align:center;">
+          <img src="images/swiss-card.jpg" alt="Swiss Medical Card" style="width:150px; border:1px solid #ccc; border-radius:8px;">
+          <p style="font-size:0.9rem; margin-top:5px;">کارت پزشکی (سوئیس)</p>
+        </div>
+        <!-- تصویر مدرک فرانسوی -->
+        <div style="text-align:center;">
+          <img src="images/french-degree.jpg" alt="French Medical Degree" style="width:150px; border:1px solid #ccc; border-radius:8px;">
+          <p style="font-size:0.9rem; margin-top:5px;">مدرک پزشکی (فرانسه)</p>
+        </div>
+      </div>
+      <p style="font-size:0.85rem; margin-top:10px; color:#555;">
+        (تصاویر مدارک برای نمایش کوچک شده‌اند، روی نسخه نهایی می‌توانید با کلیک بزرگنمایی کنید)
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="services">
+    <div class="card">
+      <h2>خدمات</h2>
+      <ul>
+        <li>جراحی تعویض مفصل زانو و لگن</li>
+        <li>درمان شکستگی‌ها و آسیب‌های ورزشی</li>
+        <li>اصلاح انحراف ستون فقرات</li>
+        <li>فیزیوتراپی و توان‌بخشی پس از عمل</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="articles">
+    <div class="card">
+      <h2>مقالات و آموزش‌ها</h2>
+      <p>در این بخش می‌توانید مقالات علمی و آموزش‌های مرتبط با ارتوپدی را مطالعه کنید.</p>
+    </div>
+  </section>
+
+  <section id="appointment">
+    <div class="card">
+      <h2>نوبت‌دهی آنلاین</h2>
+      <form id="appointmentForm">
+        <input type="text" name="name" placeholder="نام و نام خانوادگی" required>
+        <input type="tel" name="phone" placeholder="شماره تلفن همراه" required>
+        <input type="date" name="date" required>
+        <select name="service" required>
+          <option value="">انتخاب خدمت</option>
+          <option value="visit">ویزیت تخصصی</option>
+          <option value="replacement">تعویض مفصل</option>
+          <option value="repair">ترمیم لیگامان</option>
+          <option value="rehab">توان‌بخشی</option>
+        </select>
+        <textarea name="note" placeholder="توضیحات بیشتر (اختیاری)" rows="4"></textarea>
+        <button type="submit">ثبت نوبت</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>تماس با ما</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="نام و نام خانوادگی" required>
+        <input type="email" placeholder="ایمیل" required>
+        <textarea placeholder="پیام شما" rows="5" required></textarea>
+        <button type="submit">ارسال پیام</button>
+      </form>
+      <p><strong>آدرس کلینیک:</strong> تهران، چیتگر منطقه 22 ...</p>
+      <p><strong>شماره تماس:</strong> ۴۴۱۹-۰۲۱ </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 تمامی حقوق محفوظ است.</p>
+  </footer>
+
+  <script src="app.js"></script>
+
+  <script>
+    // بررسی زبان مرورگر
+    const userLang = navigator.language || navigator.userLanguage;
+
+    if (userLang.startsWith("en")) {
+      document.getElementById("pageTitle").innerText = "Dr. Motamen Clinic";
+      document.getElementById("headerTitle").innerText = "Dr.MohammadHossein Motamen";
+    }
+    else if (userLang.startsWith("pe")) {
+      document.getElementById("pageTitle").innerText = "کلینیک دکتر محمدحسین مؤتمن";
+      document.getElementById("headerTitle").innerText = "دکتر محمدحسین مؤتمن";
+    }
+    
+  </script>
+</body>
+</html>
