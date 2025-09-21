@@ -75,7 +75,7 @@ function setLanguage(lang) {
 
     document.getElementById("pageTitle").innerText = "Dr. Motamen Clinic";
     document.getElementById("headerTitle").innerText = "Dr. Mohammad Motamen";
-    document.getElementById("headerSubtitle").innerText = "Orthopedic Sergery — 13 years of experience";
+    document.getElementById("headerSubtitle").innerText = "Orthopedic surgery — 13 years of experience";
 
     document.getElementById("navAbout").innerText = "About";
     document.getElementById("navServices").innerText = "Services";
@@ -84,12 +84,12 @@ function setLanguage(lang) {
     document.getElementById("navContact").innerText = "Contact";
 
     document.getElementById("aboutTitle").innerText = "About Dr. Motamen";
-    document.getElementById("aboutText").innerText = "Dr. Mohammad Motamen, orthopedic Sergery with over 13 years of experience treating bone, joint, and spine problems.";
+    document.getElementById("aboutText").innerText = "Dr. Mohammad Motamen, orthopedic surgery with over 13 years of experience treating bone, joint, and spine problems.";
 
 
     document.getElementById("medicalIdLabel").innerText = "Medical Council Number:";
     
-    document.getElementById("membership").innerText = "Member of the European Orthopedic Sergery Association — Prague Reg. No: MA EU020 M774-ORTHOPEDIST, Member since: 2.10.2012";
+    document.getElementById("membership").innerText = "Member of the European Orthopedic surgery Association — Prague Reg. No: MA EU020 M774-ORTHOPEDIST, Member since: 2.10.2012";
 
 
     document.getElementById("servicesTitle").innerText = "Services";
@@ -197,5 +197,3 @@ function setLanguage(lang) {
   // این خط کلیدیه: لیست مقالات رو همزمان با تغییر زبان دوباره بسازه
   renderArticles(lang);
 }
-
-
