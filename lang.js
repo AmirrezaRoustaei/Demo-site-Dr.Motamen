@@ -17,6 +17,11 @@ const articlesFA = [
     desc: "توضیح کوتاه درباره مقاله سوم...",
     link: "https://example.com/article3",
     linkText: "مطالعه مقاله"
+  },
+  { title: "عنوان مقاله چهارم",
+    desc: "توضیح کوتاه درباره مقاله چهارم...",
+    link: "https://example.com/article4",
+    linkText: "مطالعه مقاله"
   }
 ];
 
@@ -38,6 +43,12 @@ const articlesEN = [
     title: "Third Article",
     desc: "A short description about the third article...",
     link: "https://example.com/article3",
+    linkText: "Read Article"
+  },
+    {
+    title: "Fourth Article",
+    desc: "A short description about the fourth article...",
+    link: "https://example.com/article4",
     linkText: "Read Article"
   }
 ];
