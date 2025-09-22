@@ -87,7 +87,7 @@ function setLanguage(lang) {
     document.getElementById("aboutText").innerText = "Dr. Mohammad Motamen, orthopedic surgery with over 13 years of experience treating bone, joint, and spine problems.";
 
 
-    document.getElementById("medicalIdLabel").innerText = "Medical Council Number:";
+    document.getElementById("medicalIdLabel").innerText = "Medical Council Number:4022";
     
     document.getElementById("membership").innerText = "Member of the European Orthopedic surgery Association — Prague Reg. No: MA EU020 M774-ORTHOPEDIST, Member since: 2.10.2012";
 
@@ -150,7 +150,7 @@ function setLanguage(lang) {
     document.getElementById("aboutText").innerText = "دکتر محمد مؤتمن، فوق تخصص ارتوپدی با بیش از ۱۳ سال تجربه در درمان مشکلات استخوان، مفاصل و ستون فقرات.";
 
    
-    document.getElementById("medicalIdLabel").innerText = "شماره نظام پزشکی:";
+    document.getElementById("medicalIdLabel").innerText = "شماره نظام پزشکی:۴۰۲۲";
 
     document.getElementById("membership").innerText = "عضو انجمن پزشکان ارتوپد اروپا – پراگ شماره رجیستری: MA EU020 M774-ORTHOPEDIST، تاریخ عضویت: 2.10.2012";
 
